@@ -48,9 +48,9 @@
 </style>
 <h1>api-documentation for
     <a
-        
+
         href="https://github.com/mzabriskie/axios"
-        
+
     >axios (v0.15.3)</a>
 </h1>
 <h4>Promise based HTTP client for the browser and node.js</h4>
@@ -58,612 +58,612 @@
     href="#apidoc.tableOfContents"
     id="apidoc.tableOfContents"
 ><h1>table of contents</h1></a><ol>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.axios">module axios</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.Axios">
             function <span class="apidocSignatureSpan">axios.</span>Axios
             <span class="apidocSignatureSpan">(instanceConfig)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.Cancel">
             function <span class="apidocSignatureSpan">axios.</span>Cancel
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.CancelToken">
             function <span class="apidocSignatureSpan">axios.</span>CancelToken
             <span class="apidocSignatureSpan">(executor)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.all">
             function <span class="apidocSignatureSpan">axios.</span>all
             <span class="apidocSignatureSpan">(promises)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.create">
             function <span class="apidocSignatureSpan">axios.</span>create
             <span class="apidocSignatureSpan">(instanceConfig)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.default">
             function <span class="apidocSignatureSpan">axios.</span>default
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.delete">
             function <span class="apidocSignatureSpan">axios.</span>delete
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.get">
             function <span class="apidocSignatureSpan">axios.</span>get
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.head">
             function <span class="apidocSignatureSpan">axios.</span>head
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.isCancel">
             function <span class="apidocSignatureSpan">axios.</span>isCancel
             <span class="apidocSignatureSpan">(value)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.patch">
             function <span class="apidocSignatureSpan">axios.</span>patch
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.post">
             function <span class="apidocSignatureSpan">axios.</span>post
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.put">
             function <span class="apidocSignatureSpan">axios.</span>put
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.request">
             function <span class="apidocSignatureSpan">axios.</span>request
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.spread">
             function <span class="apidocSignatureSpan">axios.</span>spread
             <span class="apidocSignatureSpan">(callback)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.</span>Axios.prototype</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.</span>Cancel.prototype</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.</span>CancelToken.prototype</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.</span>defaults</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.</span>defaults.transformRequest</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.</span>defaults.transformResponse</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.</span>interceptors</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.</span>utils</span>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.axios.Axios">module axios.Axios</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.Axios.Axios">
             function <span class="apidocSignatureSpan">axios.</span>Axios
             <span class="apidocSignatureSpan">(instanceConfig)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.axios.Axios.prototype">module axios.Axios.prototype</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.Axios.prototype.delete">
             function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>delete
             <span class="apidocSignatureSpan">(url, config)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.Axios.prototype.get">
             function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>get
             <span class="apidocSignatureSpan">(url, config)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.Axios.prototype.head">
             function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>head
             <span class="apidocSignatureSpan">(url, config)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.Axios.prototype.patch">
             function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>patch
             <span class="apidocSignatureSpan">(url, data, config)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.Axios.prototype.post">
             function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>post
             <span class="apidocSignatureSpan">(url, data, config)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.Axios.prototype.put">
             function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>put
             <span class="apidocSignatureSpan">(url, data, config)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.Axios.prototype.request">
             function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>request
             <span class="apidocSignatureSpan">(config)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.axios.Cancel">module axios.Cancel</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.Cancel.Cancel">
             function <span class="apidocSignatureSpan">axios.</span>Cancel
             <span class="apidocSignatureSpan">(message)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.axios.Cancel.prototype">module axios.Cancel.prototype</a><ol>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">axios.Cancel.prototype.</span>__CANCEL__</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.Cancel.prototype.toString">
             function <span class="apidocSignatureSpan">axios.Cancel.prototype.</span>toString
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.axios.CancelToken">module axios.CancelToken</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.CancelToken.CancelToken">
             function <span class="apidocSignatureSpan">axios.</span>CancelToken
             <span class="apidocSignatureSpan">(executor)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.CancelToken.source">
             function <span class="apidocSignatureSpan">axios.CancelToken.</span>source
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.axios.CancelToken.prototype">module axios.CancelToken.prototype</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.CancelToken.prototype.throwIfRequested">
             function <span class="apidocSignatureSpan">axios.CancelToken.prototype.</span>throwIfRequested
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.axios.defaults">module axios.defaults</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.defaults.adapter">
             function <span class="apidocSignatureSpan">axios.defaults.</span>adapter
             <span class="apidocSignatureSpan">(config)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.defaults.validateStatus">
             function <span class="apidocSignatureSpan">axios.defaults.</span>validateStatus
             <span class="apidocSignatureSpan">(status)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">axios.defaults.</span>maxContentLength</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">number <span class="apidocSignatureSpan">axios.defaults.</span>timeout</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.defaults.</span>headers</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.defaults.</span>transformRequest</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.defaults.</span>transformResponse</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">axios.defaults.</span>xsrfCookieName</span>
-            
+
         </li>
-        
+
         <li>
-            
+
             <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">axios.defaults.</span>xsrfHeaderName</span>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.axios.defaults.transformRequest">module axios.defaults.transformRequest</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.defaults.transformRequest.0">
             function <span class="apidocSignatureSpan">axios.defaults.transformRequest.</span>0
             <span class="apidocSignatureSpan">(data, headers)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.axios.defaults.transformResponse">module axios.defaults.transformResponse</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.defaults.transformResponse.0">
             function <span class="apidocSignatureSpan">axios.defaults.transformResponse.</span>0
             <span class="apidocSignatureSpan">(data)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
     <li class="apidocModuleLi"><a href="#apidoc.module.axios.utils">module axios.utils</a><ol>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.extend">
             function <span class="apidocSignatureSpan">axios.utils.</span>extend
             <span class="apidocSignatureSpan">(a, b, thisArg)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.forEach">
             function <span class="apidocSignatureSpan">axios.utils.</span>forEach
             <span class="apidocSignatureSpan">(obj, fn)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isArray">
             function <span class="apidocSignatureSpan">axios.utils.</span>isArray
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isArrayBuffer">
             function <span class="apidocSignatureSpan">axios.utils.</span>isArrayBuffer
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isArrayBufferView">
             function <span class="apidocSignatureSpan">axios.utils.</span>isArrayBufferView
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isBlob">
             function <span class="apidocSignatureSpan">axios.utils.</span>isBlob
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isDate">
             function <span class="apidocSignatureSpan">axios.utils.</span>isDate
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isFile">
             function <span class="apidocSignatureSpan">axios.utils.</span>isFile
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isFormData">
             function <span class="apidocSignatureSpan">axios.utils.</span>isFormData
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isFunction">
             function <span class="apidocSignatureSpan">axios.utils.</span>isFunction
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isNumber">
             function <span class="apidocSignatureSpan">axios.utils.</span>isNumber
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isObject">
             function <span class="apidocSignatureSpan">axios.utils.</span>isObject
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isStandardBrowserEnv">
             function <span class="apidocSignatureSpan">axios.utils.</span>isStandardBrowserEnv
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isStream">
             function <span class="apidocSignatureSpan">axios.utils.</span>isStream
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isString">
             function <span class="apidocSignatureSpan">axios.utils.</span>isString
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isURLSearchParams">
             function <span class="apidocSignatureSpan">axios.utils.</span>isURLSearchParams
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isUndefined">
             function <span class="apidocSignatureSpan">axios.utils.</span>isUndefined
             <span class="apidocSignatureSpan">(val)</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.merge">
             function <span class="apidocSignatureSpan">axios.utils.</span>merge
             <span class="apidocSignatureSpan">()</span>
             </a>
-            
+
         </li>
-        
+
         <li>
-            
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.trim">
             function <span class="apidocSignatureSpan">axios.utils.</span>trim
             <span class="apidocSignatureSpan">(str)</span>
             </a>
-            
+
         </li>
-        
+
     </ol></li>
-    
+
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.axios" id="apidoc.module.axios">module axios</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.axios.Axios" id="apidoc.element.axios.Axios">
         function <span class="apidocSignatureSpan">axios.</span>Axios
@@ -680,9 +680,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.Cancel" id="apidoc.element.axios.Cancel">
         function <span class="apidocSignatureSpan">axios.</span>Cancel
@@ -695,9 +695,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.CancelToken" id="apidoc.element.axios.CancelToken">
         function <span class="apidocSignatureSpan">axios.</span>CancelToken
@@ -728,9 +728,9 @@
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.all" id="apidoc.element.axios.all">
         function <span class="apidocSignatureSpan">axios.</span>all
@@ -758,9 +758,9 @@ axios.<span class="apidocCodeKeywordSpan">all</span>([getUserAccount(), getUserP
 ## axios API
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.create" id="apidoc.element.axios.create">
         function <span class="apidocSignatureSpan">axios.</span>create
@@ -789,9 +789,9 @@ var instance = axios.create({
 });
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.default" id="apidoc.element.axios.default">
         function <span class="apidocSignatureSpan">axios.</span>default
@@ -808,9 +808,9 @@ var instance = axios.create({
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.delete" id="apidoc.element.axios.delete">
         function <span class="apidocSignatureSpan">axios.</span>delete
@@ -843,9 +843,9 @@ For convenience aliases have been provided for all supported request methods.
 When using the alias methods `url`, `method`, and `data` properties don&#x27;t need to be specified in config.
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.get" id="apidoc.element.axios.get">
         function <span class="apidocSignatureSpan">axios.</span>get
@@ -877,9 +877,9 @@ axios.<span class="apidocCodeKeywordSpan">get</span>(&#x27;/user?ID=12345&#x27;)
 });
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.head" id="apidoc.element.axios.head">
         function <span class="apidocSignatureSpan">axios.</span>head
@@ -911,9 +911,9 @@ For convenience aliases have been provided for all supported request methods.
 When using the alias methods `url`, `method`, and `data` properties don&#x27;t need to be specified in config.
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.isCancel" id="apidoc.element.axios.isCancel">
         function <span class="apidocSignatureSpan">axios.</span>isCancel
@@ -942,9 +942,9 @@ axios.get(&#x27;/user/12345&#x27;, {
 // cancel the request (the message parameter is optional)
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.patch" id="apidoc.element.axios.patch">
         function <span class="apidocSignatureSpan">axios.</span>patch
@@ -977,9 +977,9 @@ When using the alias methods `url`, `method`, and `data` properties don&#x27;t n
 Helper functions for dealing with concurrent requests.
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.post" id="apidoc.element.axios.post">
         function <span class="apidocSignatureSpan">axios.</span>post
@@ -1012,9 +1012,9 @@ axios.<span class="apidocCodeKeywordSpan">post</span>(&#x27;/user&#x27;, {
 .catch(function (error) {
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.put" id="apidoc.element.axios.put">
         function <span class="apidocSignatureSpan">axios.</span>put
@@ -1046,9 +1046,9 @@ When using the alias methods `url`, `method`, and `data` properties don&#x27;t n
 ### Concurrency
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.request" id="apidoc.element.axios.request">
         function <span class="apidocSignatureSpan">axios.</span>request
@@ -1080,9 +1080,9 @@ For convenience aliases have been provided for all supported request methods.
 ##### axios.patch(url[, data[, config]])
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.spread" id="apidoc.element.axios.spread">
         function <span class="apidocSignatureSpan">axios.</span>spread
@@ -1113,30 +1113,30 @@ axios.all([getUserAccount(), getUserPermissions()])
 Requests can be made by passing the relevant config to `axios`.
 ...</pre></li>
     </ul>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.axios.Axios" id="apidoc.module.axios.Axios">module axios.Axios</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.axios.Axios.Axios" id="apidoc.element.axios.Axios.Axios">
         function <span class="apidocSignatureSpan">axios.</span>Axios
@@ -1153,14 +1153,14 @@ Requests can be made by passing the relevant config to `axios`.
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.axios.Axios.prototype" id="apidoc.module.axios.Axios.prototype">module axios.Axios.prototype</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.axios.Axios.prototype.delete" id="apidoc.element.axios.Axios.prototype.delete">
         function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>delete
@@ -1192,9 +1192,9 @@ For convenience aliases have been provided for all supported request methods.
 When using the alias methods `url`, `method`, and `data` properties don&#x27;t need to be specified in config.
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.Axios.prototype.get" id="apidoc.element.axios.Axios.prototype.get">
         function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>get
@@ -1225,9 +1225,9 @@ axios.<span class="apidocCodeKeywordSpan">get</span>(&#x27;/user?ID=12345&#x27;)
 });
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.Axios.prototype.head" id="apidoc.element.axios.Axios.prototype.head">
         function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>head
@@ -1258,9 +1258,9 @@ For convenience aliases have been provided for all supported request methods.
 When using the alias methods `url`, `method`, and `data` properties don&#x27;t need to be specified in config.
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.Axios.prototype.patch" id="apidoc.element.axios.Axios.prototype.patch">
         function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>patch
@@ -1293,9 +1293,9 @@ When using the alias methods `url`, `method`, and `data` properties don&#x27;t n
 Helper functions for dealing with concurrent requests.
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.Axios.prototype.post" id="apidoc.element.axios.Axios.prototype.post">
         function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>post
@@ -1328,9 +1328,9 @@ axios.<span class="apidocCodeKeywordSpan">post</span>(&#x27;/user&#x27;, {
 .catch(function (error) {
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.Axios.prototype.put" id="apidoc.element.axios.Axios.prototype.put">
         function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>put
@@ -1362,9 +1362,9 @@ When using the alias methods `url`, `method`, and `data` properties don&#x27;t n
 ### Concurrency
 ...</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.Axios.prototype.request" id="apidoc.element.axios.Axios.prototype.request">
         function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>request
@@ -1423,14 +1423,14 @@ For convenience aliases have been provided for all supported request methods.
 ##### axios.patch(url[, data[, config]])
 ...</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.axios.Cancel" id="apidoc.module.axios.Cancel">module axios.Cancel</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.axios.Cancel.Cancel" id="apidoc.element.axios.Cancel.Cancel">
         function <span class="apidocSignatureSpan">axios.</span>Cancel
@@ -1443,16 +1443,16 @@ For convenience aliases have been provided for all supported request methods.
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.axios.Cancel.prototype" id="apidoc.module.axios.Cancel.prototype">module axios.Cancel.prototype</a></h1>
-    
-    
-    
-    
+
+
+
+
     <h2>
         <a href="#apidoc.element.axios.Cancel.prototype.toString" id="apidoc.element.axios.Cancel.prototype.toString">
         function <span class="apidocSignatureSpan">axios.Cancel.prototype.</span>toString
@@ -1465,14 +1465,14 @@ For convenience aliases have been provided for all supported request methods.
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.axios.CancelToken" id="apidoc.module.axios.CancelToken">module axios.CancelToken</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.axios.CancelToken.CancelToken" id="apidoc.element.axios.CancelToken.CancelToken">
         function <span class="apidocSignatureSpan">axios.</span>CancelToken
@@ -1503,9 +1503,9 @@ For convenience aliases have been provided for all supported request methods.
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.CancelToken.source" id="apidoc.element.axios.CancelToken.source">
         function <span class="apidocSignatureSpan">axios.CancelToken.</span>source
@@ -1525,8 +1525,8 @@ For convenience aliases have been provided for all supported request methods.
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
-&#x3e; The axios cancel token API is based on the [cancelable promises proposal](https://github.com/tc39/proposal-cancelable-pro\
-mises), which is currently at Stage 1.
+&#x3e; The axios cancel token API is based on the [cancelable promises proposal](https://github.com/tc39/proposal-cancelable-promises
+), which is currently at Stage 1.
 
 You can create a cancel token using the `CancelToken.source` factory as shown below:
 
@@ -1542,14 +1542,14 @@ if (axios.isCancel(thrown)) {
 } else {
 ...</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.axios.CancelToken.prototype" id="apidoc.module.axios.CancelToken.prototype">module axios.CancelToken.prototype</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.axios.CancelToken.prototype.throwIfRequested" id="apidoc.element.axios.CancelToken.prototype.throwIfRequested">
         function <span class="apidocSignatureSpan">axios.CancelToken.prototype.</span>throwIfRequested
@@ -1564,14 +1564,14 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.axios.defaults" id="apidoc.module.axios.defaults">module axios.defaults</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.axios.defaults.adapter" id="apidoc.element.axios.defaults.adapter">
         function <span class="apidocSignatureSpan">axios.defaults.</span>adapter
@@ -1712,9 +1712,9 @@ if (axios.isCancel(thrown)) {
         delete r ...</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.defaults.validateStatus" id="apidoc.element.axios.defaults.validateStatus">
         function <span class="apidocSignatureSpan">axios.defaults.</span>validateStatus
@@ -1727,28 +1727,28 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.axios.defaults.transformRequest" id="apidoc.module.axios.defaults.transformRequest">module axios.defaults.transformRequest</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.axios.defaults.transformRequest.0" id="apidoc.element.axios.defaults.transformRequest.0">
         function <span class="apidocSignatureSpan">axios.defaults.transformRequest.</span>0
@@ -1781,14 +1781,14 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.axios.defaults.transformResponse" id="apidoc.module.axios.defaults.transformResponse">module axios.defaults.transformResponse</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.axios.defaults.transformResponse.0" id="apidoc.element.axios.defaults.transformResponse.0">
         function <span class="apidocSignatureSpan">axios.defaults.transformResponse.</span>0
@@ -1808,14 +1808,14 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.axios.utils" id="apidoc.module.axios.utils">module axios.utils</a></h1>
-    
-    
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.extend" id="apidoc.element.axios.utils.extend">
         function <span class="apidocSignatureSpan">axios.utils.</span>extend
@@ -1835,9 +1835,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.forEach" id="apidoc.element.axios.utils.forEach">
         function <span class="apidocSignatureSpan">axios.utils.</span>forEach
@@ -1873,9 +1873,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isArray" id="apidoc.element.axios.utils.isArray">
         function <span class="apidocSignatureSpan">axios.utils.</span>isArray
@@ -1888,9 +1888,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isArrayBuffer" id="apidoc.element.axios.utils.isArrayBuffer">
         function <span class="apidocSignatureSpan">axios.utils.</span>isArrayBuffer
@@ -1903,9 +1903,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isArrayBufferView" id="apidoc.element.axios.utils.isArrayBufferView">
         function <span class="apidocSignatureSpan">axios.utils.</span>isArrayBufferView
@@ -1924,9 +1924,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isBlob" id="apidoc.element.axios.utils.isBlob">
         function <span class="apidocSignatureSpan">axios.utils.</span>isBlob
@@ -1939,9 +1939,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isDate" id="apidoc.element.axios.utils.isDate">
         function <span class="apidocSignatureSpan">axios.utils.</span>isDate
@@ -1954,9 +1954,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isFile" id="apidoc.element.axios.utils.isFile">
         function <span class="apidocSignatureSpan">axios.utils.</span>isFile
@@ -1969,9 +1969,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isFormData" id="apidoc.element.axios.utils.isFormData">
         function <span class="apidocSignatureSpan">axios.utils.</span>isFormData
@@ -1984,9 +1984,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isFunction" id="apidoc.element.axios.utils.isFunction">
         function <span class="apidocSignatureSpan">axios.utils.</span>isFunction
@@ -1999,9 +1999,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isNumber" id="apidoc.element.axios.utils.isNumber">
         function <span class="apidocSignatureSpan">axios.utils.</span>isNumber
@@ -2014,9 +2014,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isObject" id="apidoc.element.axios.utils.isObject">
         function <span class="apidocSignatureSpan">axios.utils.</span>isObject
@@ -2029,9 +2029,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isStandardBrowserEnv" id="apidoc.element.axios.utils.isStandardBrowserEnv">
         function <span class="apidocSignatureSpan">axios.utils.</span>isStandardBrowserEnv
@@ -2048,9 +2048,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isStream" id="apidoc.element.axios.utils.isStream">
         function <span class="apidocSignatureSpan">axios.utils.</span>isStream
@@ -2063,9 +2063,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isString" id="apidoc.element.axios.utils.isString">
         function <span class="apidocSignatureSpan">axios.utils.</span>isString
@@ -2078,9 +2078,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isURLSearchParams" id="apidoc.element.axios.utils.isURLSearchParams">
         function <span class="apidocSignatureSpan">axios.utils.</span>isURLSearchParams
@@ -2093,9 +2093,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.isUndefined" id="apidoc.element.axios.utils.isUndefined">
         function <span class="apidocSignatureSpan">axios.utils.</span>isUndefined
@@ -2108,9 +2108,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.merge" id="apidoc.element.axios.utils.merge">
         function <span class="apidocSignatureSpan">axios.utils.</span>merge
@@ -2135,9 +2135,9 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
-    
+
+
+
     <h2>
         <a href="#apidoc.element.axios.utils.trim" id="apidoc.element.axios.utils.trim">
         function <span class="apidocSignatureSpan">axios.utils.</span>trim
@@ -2150,8 +2150,8 @@ if (axios.isCancel(thrown)) {
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
-    
-    
+
+
 </div>
 
 <div class="apidocFooterDiv">
