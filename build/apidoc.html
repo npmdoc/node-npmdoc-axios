@@ -51,7 +51,7 @@
 
         href="https://github.com/mzabriskie/axios"
 
-    >axios (v0.15.3)</a>
+    >axios (v0.16.0)</a>
 </h1>
 <h4>Promise based HTTP client for the browser and node.js</h4>
 <div class="apidocSectionDiv"><a
@@ -147,6 +147,15 @@
             <a class="apidocElementLiA" href="#apidoc.element.axios.isCancel">
             function <span class="apidocSignatureSpan">axios.</span>isCancel
             <span class="apidocSignatureSpan">(value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.options">
+            function <span class="apidocSignatureSpan">axios.</span>options
+            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
@@ -283,6 +292,15 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.axios.Axios.prototype.head">
             function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>head
+            <span class="apidocSignatureSpan">(url, config)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.Axios.prototype.options">
+            function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>options
             <span class="apidocSignatureSpan">(url, config)</span>
             </a>
 
@@ -835,12 +853,12 @@ For convenience aliases have been provided for all supported request methods.
 ##### axios.get(url[, config])
 ##### axios.<span class="apidocCodeKeywordSpan">delete</span>(url[, config])
 ##### axios.head(url[, config])
+##### axios.options(url[, config])
 ##### axios.post(url[, data[, config]])
 ##### axios.put(url[, data[, config]])
 ##### axios.patch(url[, data[, config]])
 
 ###### NOTE
-When using the alias methods `url`, `method`, and `data` properties don&#x27;t need to be specified in config.
 ...</pre></li>
     </ul>
 
@@ -903,6 +921,7 @@ For convenience aliases have been provided for all supported request methods.
 ##### axios.get(url[, config])
 ##### axios.delete(url[, config])
 ##### axios.<span class="apidocCodeKeywordSpan">head</span>(url[, config])
+##### axios.options(url[, config])
 ##### axios.post(url[, data[, config]])
 ##### axios.put(url[, data[, config]])
 ##### axios.patch(url[, data[, config]])
@@ -946,6 +965,40 @@ axios.get(&#x27;/user/12345&#x27;, {
 
 
     <h2>
+        <a href="#apidoc.element.axios.options" id="apidoc.element.axios.options">
+        function <span class="apidocSignatureSpan">axios.</span>options
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function wrap() {
+  var args = new Array(arguments.length);
+  for (var i = 0; i &#x3c; args.length; i++) {
+    args[i] = arguments[i];
+  }
+  return fn.apply(thisArg, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+For convenience aliases have been provided for all supported request methods.
+
+##### axios.request(config)
+##### axios.get(url[, config])
+##### axios.delete(url[, config])
+##### axios.head(url[, config])
+##### axios.<span class="apidocCodeKeywordSpan">options</span>(url[, config])
+##### axios.post(url[, data[, config]])
+##### axios.put(url[, data[, config]])
+##### axios.patch(url[, data[, config]])
+
+###### NOTE
+When using the alias methods `url`, `method`, and `data` properties don&#x27;t need to be specified in config.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.axios.patch" id="apidoc.element.axios.patch">
         function <span class="apidocSignatureSpan">axios.</span>patch
         <span class="apidocSignatureSpan">()</span>
@@ -960,11 +1013,11 @@ axios.get(&#x27;/user/12345&#x27;, {
   return fn.apply(thisArg, args);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-
 ##### axios.request(config)
 ##### axios.get(url[, config])
 ##### axios.delete(url[, config])
 ##### axios.head(url[, config])
+##### axios.options(url[, config])
 ##### axios.post(url[, data[, config]])
 ##### axios.put(url[, data[, config]])
 ##### axios.<span class="apidocCodeKeywordSpan">patch</span>(url[, data[, config]])
@@ -1030,12 +1083,12 @@ axios.<span class="apidocCodeKeywordSpan">post</span>(&#x27;/user&#x27;, {
   return fn.apply(thisArg, args);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-For convenience aliases have been provided for all supported request methods.
 
 ##### axios.request(config)
 ##### axios.get(url[, config])
 ##### axios.delete(url[, config])
 ##### axios.head(url[, config])
+##### axios.options(url[, config])
 ##### axios.post(url[, data[, config]])
 ##### axios.<span class="apidocCodeKeywordSpan">put</span>(url[, data[, config]])
 ##### axios.patch(url[, data[, config]])
@@ -1075,6 +1128,7 @@ For convenience aliases have been provided for all supported request methods.
 ##### axios.get(url[, config])
 ##### axios.delete(url[, config])
 ##### axios.head(url[, config])
+##### axios.options(url[, config])
 ##### axios.post(url[, data[, config]])
 ##### axios.put(url[, data[, config]])
 ##### axios.patch(url[, data[, config]])
@@ -1184,12 +1238,12 @@ For convenience aliases have been provided for all supported request methods.
 ##### axios.get(url[, config])
 ##### axios.<span class="apidocCodeKeywordSpan">delete</span>(url[, config])
 ##### axios.head(url[, config])
+##### axios.options(url[, config])
 ##### axios.post(url[, data[, config]])
 ##### axios.put(url[, data[, config]])
 ##### axios.patch(url[, data[, config]])
 
 ###### NOTE
-When using the alias methods `url`, `method`, and `data` properties don&#x27;t need to be specified in config.
 ...</pre></li>
     </ul>
 
@@ -1250,6 +1304,40 @@ For convenience aliases have been provided for all supported request methods.
 ##### axios.get(url[, config])
 ##### axios.delete(url[, config])
 ##### axios.<span class="apidocCodeKeywordSpan">head</span>(url[, config])
+##### axios.options(url[, config])
+##### axios.post(url[, data[, config]])
+##### axios.put(url[, data[, config]])
+##### axios.patch(url[, data[, config]])
+
+###### NOTE
+When using the alias methods `url`, `method`, and `data` properties don&#x27;t need to be specified in config.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.Axios.prototype.options" id="apidoc.element.axios.Axios.prototype.options">
+        function <span class="apidocSignatureSpan">axios.Axios.prototype.</span>options
+        <span class="apidocSignatureSpan">(url, config)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">options = function (url, config) {
+  return this.request(utils.merge(config || {}, {
+    method: method,
+    url: url
+  }));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+For convenience aliases have been provided for all supported request methods.
+
+##### axios.request(config)
+##### axios.get(url[, config])
+##### axios.delete(url[, config])
+##### axios.head(url[, config])
+##### axios.<span class="apidocCodeKeywordSpan">options</span>(url[, config])
 ##### axios.post(url[, data[, config]])
 ##### axios.put(url[, data[, config]])
 ##### axios.patch(url[, data[, config]])
@@ -1276,11 +1364,11 @@ When using the alias methods `url`, `method`, and `data` properties don&#x27;t n
   }));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-
 ##### axios.request(config)
 ##### axios.get(url[, config])
 ##### axios.delete(url[, config])
 ##### axios.head(url[, config])
+##### axios.options(url[, config])
 ##### axios.post(url[, data[, config]])
 ##### axios.put(url[, data[, config]])
 ##### axios.<span class="apidocCodeKeywordSpan">patch</span>(url[, data[, config]])
@@ -1346,12 +1434,12 @@ axios.<span class="apidocCodeKeywordSpan">post</span>(&#x27;/user&#x27;, {
   }));
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
-For convenience aliases have been provided for all supported request methods.
 
 ##### axios.request(config)
 ##### axios.get(url[, config])
 ##### axios.delete(url[, config])
 ##### axios.head(url[, config])
+##### axios.options(url[, config])
 ##### axios.post(url[, data[, config]])
 ##### axios.<span class="apidocCodeKeywordSpan">put</span>(url[, data[, config]])
 ##### axios.patch(url[, data[, config]])
@@ -1418,6 +1506,7 @@ For convenience aliases have been provided for all supported request methods.
 ##### axios.get(url[, config])
 ##### axios.delete(url[, config])
 ##### axios.head(url[, config])
+##### axios.options(url[, config])
 ##### axios.post(url[, data[, config]])
 ##### axios.put(url[, data[, config]])
 ##### axios.patch(url[, data[, config]])
@@ -1525,8 +1614,8 @@ For convenience aliases have been provided for all supported request methods.
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 
-&#x3e; The axios cancel token API is based on the [cancelable promises proposal](https://github.com/tc39/proposal-cancelable-promises
-), which is currently at Stage 1.
+&#x3e; The axios cancel token API is based on the withdrawn [cancelable promises proposal](https://github.com/tc39/proposal-cancelable
+-promises).
 
 You can create a cancel token using the `CancelToken.source` factory as shown below:
 
@@ -1799,7 +1888,6 @@ if (axios.isCancel(thrown)) {
     <li>description and source-code<pre class="apidocCodePre">function transformResponse(data) {
 <span class="apidocCodeCommentSpan">  /*eslint no-param-reassign:0*/
 </span>  if (typeof data === &#x27;string&#x27;) {
-    data = data.replace(PROTECTION_PREFIX, &#x27;&#x27;);
     try {
       data = JSON.parse(data);
     } catch (e) { /* Ignore */ }
@@ -2040,10 +2128,12 @@ if (axios.isCancel(thrown)) {
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function isStandardBrowserEnv() {
+  if (typeof navigator !== &#x27;undefined&#x27; &#x26;&#x26; navigator.product === &#x27;ReactNative&#x27;) {
+    return false;
+  }
   return (
     typeof window !== &#x27;undefined&#x27; &#x26;&#x26;
-    typeof document !== &#x27;undefined&#x27; &#x26;&#x26;
-    typeof document.createElement === &#x27;function&#x27;
+    typeof document !== &#x27;undefined&#x27;
   );
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
