@@ -51,7 +51,7 @@
 
         href="https://github.com/mzabriskie/axios"
 
-    >axios (v0.16.0)</a>
+    >axios (v0.16.1)</a>
 </h1>
 <h4>Promise based HTTP client for the browser and node.js</h4>
 <div class="apidocSectionDiv"><a
@@ -60,6 +60,15 @@
 ><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.axios">module axios</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.axios">
+            function <span class="apidocSignatureSpan"></span>axios
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
 
         <li>
 
@@ -84,6 +93,15 @@
             <a class="apidocElementLiA" href="#apidoc.element.axios.CancelToken">
             function <span class="apidocSignatureSpan">axios.</span>CancelToken
             <span class="apidocSignatureSpan">(executor)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.InterceptorManager">
+            function <span class="apidocSignatureSpan">axios.</span>InterceptorManager
+            <span class="apidocSignatureSpan">()</span>
             </a>
 
         </li>
@@ -220,6 +238,18 @@
         <li>
 
             <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.</span>CancelToken.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.</span>InterceptorManager.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.</span>cookies</span>
 
         </li>
 
@@ -411,6 +441,241 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.axios.InterceptorManager">module axios.InterceptorManager</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.InterceptorManager.InterceptorManager">
+            function <span class="apidocSignatureSpan">axios.</span>InterceptorManager
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.axios.InterceptorManager.prototype">module axios.InterceptorManager.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.InterceptorManager.prototype.eject">
+            function <span class="apidocSignatureSpan">axios.InterceptorManager.prototype.</span>eject
+            <span class="apidocSignatureSpan">(id)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.InterceptorManager.prototype.forEach">
+            function <span class="apidocSignatureSpan">axios.InterceptorManager.prototype.</span>forEach
+            <span class="apidocSignatureSpan">(fn)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.InterceptorManager.prototype.use">
+            function <span class="apidocSignatureSpan">axios.InterceptorManager.prototype.</span>use
+            <span class="apidocSignatureSpan">(fulfilled, rejected)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.axios.cookies">module axios.cookies</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.cookies.read">
+            function <span class="apidocSignatureSpan">axios.cookies.</span>read
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.cookies.remove">
+            function <span class="apidocSignatureSpan">axios.cookies.</span>remove
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.cookies.write">
+            function <span class="apidocSignatureSpan">axios.cookies.</span>write
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.axios.default">module axios.default</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.default">
+            function <span class="apidocSignatureSpan">axios.</span>default
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.Axios">
+            function <span class="apidocSignatureSpan">axios.default.</span>Axios
+            <span class="apidocSignatureSpan">(instanceConfig)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.Cancel">
+            function <span class="apidocSignatureSpan">axios.default.</span>Cancel
+            <span class="apidocSignatureSpan">(message)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.CancelToken">
+            function <span class="apidocSignatureSpan">axios.default.</span>CancelToken
+            <span class="apidocSignatureSpan">(executor)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.all">
+            function <span class="apidocSignatureSpan">axios.default.</span>all
+            <span class="apidocSignatureSpan">(promises)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.create">
+            function <span class="apidocSignatureSpan">axios.default.</span>create
+            <span class="apidocSignatureSpan">(instanceConfig)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.delete">
+            function <span class="apidocSignatureSpan">axios.default.</span>delete
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.get">
+            function <span class="apidocSignatureSpan">axios.default.</span>get
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.head">
+            function <span class="apidocSignatureSpan">axios.default.</span>head
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.isCancel">
+            function <span class="apidocSignatureSpan">axios.default.</span>isCancel
+            <span class="apidocSignatureSpan">(value)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.options">
+            function <span class="apidocSignatureSpan">axios.default.</span>options
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.patch">
+            function <span class="apidocSignatureSpan">axios.default.</span>patch
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.post">
+            function <span class="apidocSignatureSpan">axios.default.</span>post
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.put">
+            function <span class="apidocSignatureSpan">axios.default.</span>put
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.request">
+            function <span class="apidocSignatureSpan">axios.default.</span>request
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.axios.default.spread">
+            function <span class="apidocSignatureSpan">axios.default.</span>spread
+            <span class="apidocSignatureSpan">(callback)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.default.</span>defaults</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">axios.default.</span>interceptors</span>
+
+        </li>
+
+    </ol></li>
+
     <li class="apidocModuleLi"><a href="#apidoc.module.axios.defaults">module axios.defaults</a><ol>
 
         <li>
@@ -559,6 +824,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isBuffer">
+            function <span class="apidocSignatureSpan">axios.utils.</span>isBuffer
+            <span class="apidocSignatureSpan">(val)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.axios.utils.isDate">
             function <span class="apidocSignatureSpan">axios.utils.</span>isDate
             <span class="apidocSignatureSpan">(val)</span>
@@ -683,6 +957,25 @@
 
 
     <h2>
+        <a href="#apidoc.element.axios.axios" id="apidoc.element.axios.axios">
+        function <span class="apidocSignatureSpan"></span>axios
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function wrap() {
+  var args = new Array(arguments.length);
+  for (var i = 0; i &#x3c; args.length; i++) {
+    args[i] = arguments[i];
+  }
+  return fn.apply(thisArg, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.axios.Axios" id="apidoc.element.axios.Axios">
         function <span class="apidocSignatureSpan">axios.</span>Axios
         <span class="apidocSignatureSpan">(instanceConfig)</span>
@@ -743,6 +1036,21 @@
     token.reason = new Cancel(message);
     resolvePromise(token.reason);
   });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.InterceptorManager" id="apidoc.element.axios.InterceptorManager">
+        function <span class="apidocSignatureSpan">axios.</span>InterceptorManager
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function InterceptorManager() {
+  this.handlers = [];
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -1185,6 +1493,10 @@ Requests can be made by passing the relevant config to `axios`.
 
 
 
+
+
+
+
 </div>
 
 <div class="apidocSectionDiv">
@@ -1552,7 +1864,25 @@ For convenience aliases have been provided for all supported request methods.
     <li>description and source-code<pre class="apidocCodePre">function toString() {
   return &#x27;Cancel&#x27; + (this.message ? &#x27;: &#x27; + this.message : &#x27;&#x27;);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  options.host = proxy.host;
+  options.headers.host = parsed.hostname + (parsed.port ? &#x27;:&#x27; + parsed.port : &#x27;&#x27;);
+  options.port = proxy.port;
+  options.path = protocol + &#x27;//&#x27; + parsed.hostname + (parsed.port ? &#x27;:&#x27; + parsed.port : &#x27;&#x27;) + options
+.path;
+
+  // Basic proxy authorization
+  if (proxy.auth) {
+    var base64 = new Buffer(proxy.auth.username + &#x27;:&#x27; + proxy.auth.password, &#x27;utf8&#x27;).<span class="apidocCodeKeywordSpan
+">toString</span>(&#x27;base64&#x27;);
+    options.headers[&#x27;Proxy-Authorization&#x27;] = &#x27;Basic &#x27; + base64;
+  }
+}
+
+var transport;
+if (config.maxRedirects === 0) {
+  transport = isHttps ? https : http;
+...</pre></li>
     </ul>
 
 
@@ -1651,8 +1981,723 @@ if (axios.isCancel(thrown)) {
     throw this.reason;
   }
 }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var defaults = require(&#x27;../defaults&#x27;);
+
+/**
+* Throws a `Cancel` if cancellation has been requested.
+*/
+function throwIfCancellationRequested(config) {
+ if (config.cancelToken) {
+   config.cancelToken.<span class="apidocCodeKeywordSpan">throwIfRequested</span>();
+ }
+}
+
+/**
+* Dispatch a request to the server using the configured adapter.
+*
+* @param {object} config The config that is to be used for the request
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.axios.InterceptorManager" id="apidoc.module.axios.InterceptorManager">module axios.InterceptorManager</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.axios.InterceptorManager.InterceptorManager" id="apidoc.element.axios.InterceptorManager.InterceptorManager">
+        function <span class="apidocSignatureSpan">axios.</span>InterceptorManager
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function InterceptorManager() {
+  this.handlers = [];
+}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.axios.InterceptorManager.prototype" id="apidoc.module.axios.InterceptorManager.prototype">module axios.InterceptorManager.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.axios.InterceptorManager.prototype.eject" id="apidoc.element.axios.InterceptorManager.prototype.eject">
+        function <span class="apidocSignatureSpan">axios.InterceptorManager.prototype.</span>eject
+        <span class="apidocSignatureSpan">(id)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function eject(id) {
+  if (this.handlers[id]) {
+    this.handlers[id] = null;
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  });
+```
+
+If you may need to remove an interceptor later you can.
+
+```js
+var myInterceptor = axios.interceptors.request.use(function () {/*...*/});
+axios.interceptors.request.<span class="apidocCodeKeywordSpan">eject</span>(myInterceptor);
+```
+
+You can add interceptors to a custom instance of axios.
+
+```js
+var instance = axios.create();
+instance.interceptors.request.use(function () {/*...*/});
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.InterceptorManager.prototype.forEach" id="apidoc.element.axios.InterceptorManager.prototype.forEach">
+        function <span class="apidocSignatureSpan">axios.InterceptorManager.prototype.</span>forEach
+        <span class="apidocSignatureSpan">(fn)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function forEach(fn) {
+  utils.forEach(this.handlers, function forEachHandler(h) {
+    if (h !== null) {
+      fn(h);
+    }
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if (xsrfValue) {
+    requestHeaders[config.xsrfHeaderName] = xsrfValue;
+  }
+}
+
+// Add headers to the request
+if (&#x27;setRequestHeader&#x27; in request) {
+  utils.<span class="apidocCodeKeywordSpan">forEach</span>(requestHeaders, function setRequestHeader(val, key) {
+    if (typeof requestData === &#x27;undefined&#x27; &#x26;&#x26; key.toLowerCase() === &#x27;content-type&#x27;) {
+      // Remove Content-Type if data is undefined
+      delete requestHeaders[key];
+    } else {
+      // Otherwise add header to the request
+      request.setRequestHeader(key, val);
+    }
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.InterceptorManager.prototype.use" id="apidoc.element.axios.InterceptorManager.prototype.use">
+        function <span class="apidocSignatureSpan">axios.InterceptorManager.prototype.</span>use
+        <span class="apidocSignatureSpan">(fulfilled, rejected)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function use(fulfilled, rejected) {
+  this.handlers.push({
+    fulfilled: fulfilled,
+    rejected: rejected
+  });
+  return this.handlers.length - 1;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+## Interceptors
+
+You can intercept requests or responses before they are handled by `then` or `catch`.
+
+```js
+// Add a request interceptor
+axios.interceptors.request.<span class="apidocCodeKeywordSpan">use</span>(function (config) {
+  // Do something before request is sent
+  return config;
+}, function (error) {
+  // Do something with request error
+  return Promise.reject(error);
+});
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.axios.cookies" id="apidoc.module.axios.cookies">module axios.cookies</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.axios.cookies.read" id="apidoc.element.axios.cookies.read">
+        function <span class="apidocSignatureSpan">axios.cookies.</span>read
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function read() { return null; }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// This is only done if running in a standard browser environment.
+// Specifically not if we&#x27;re in a web worker, or react-native.
+if (utils.isStandardBrowserEnv()) {
+  var cookies = require(&#x27;./../helpers/cookies&#x27;);
+
+  // Add xsrf header
+  var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) &#x26;&#x26; config.xsrfCookieName ?
+      cookies.<span class="apidocCodeKeywordSpan">read</span>(config.xsrfCookieName) :
+      undefined;
+
+  if (xsrfValue) {
+    requestHeaders[config.xsrfHeaderName] = xsrfValue;
+  }
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.cookies.remove" id="apidoc.element.axios.cookies.remove">
+        function <span class="apidocSignatureSpan">axios.cookies.</span>remove
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function remove() {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.cookies.write" id="apidoc.element.axios.cookies.write">
+        function <span class="apidocSignatureSpan">axios.cookies.</span>write
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function write() {}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+    read: function read(name) {
+      var match = document.cookie.match(new RegExp(&#x27;(^|;\\s*)(&#x27; + name + &#x27;)=([^;]*)&#x27;));
+      return (match ? decodeURIComponent(match[3]) : null);
+    },
+
+    remove: function remove(name) {
+      this.<span class="apidocCodeKeywordSpan">write</span>(name, &#x27;&#x27;, Date.now() - 86400000);
+    }
+  };
+})() :
+
+// Non standard browser env (web workers, react-native) lack needed support.
+(function nonStandardBrowserEnv() {
+  return {
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.axios.default" id="apidoc.module.axios.default">module axios.default</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.default" id="apidoc.element.axios.default.default">
+        function <span class="apidocSignatureSpan">axios.</span>default
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function wrap() {
+  var args = new Array(arguments.length);
+  for (var i = 0; i &#x3c; args.length; i++) {
+    args[i] = arguments[i];
+  }
+  return fn.apply(thisArg, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.Axios" id="apidoc.element.axios.default.Axios">
+        function <span class="apidocSignatureSpan">axios.default.</span>Axios
+        <span class="apidocSignatureSpan">(instanceConfig)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Axios(instanceConfig) {
+  this.defaults = instanceConfig;
+  this.interceptors = {
+    request: new InterceptorManager(),
+    response: new InterceptorManager()
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.Cancel" id="apidoc.element.axios.default.Cancel">
+        function <span class="apidocSignatureSpan">axios.default.</span>Cancel
+        <span class="apidocSignatureSpan">(message)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Cancel(message) {
+  this.message = message;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.CancelToken" id="apidoc.element.axios.default.CancelToken">
+        function <span class="apidocSignatureSpan">axios.default.</span>CancelToken
+        <span class="apidocSignatureSpan">(executor)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function CancelToken(executor) {
+  if (typeof executor !== &#x27;function&#x27;) {
+    throw new TypeError(&#x27;executor must be a function.&#x27;);
+  }
+
+  var resolvePromise;
+  this.promise = new Promise(function promiseExecutor(resolve) {
+    resolvePromise = resolve;
+  });
+
+  var token = this;
+  executor(function cancel(message) {
+    if (token.reason) {
+      // Cancellation has already been requested
+      return;
+    }
+
+    token.reason = new Cancel(message);
+    resolvePromise(token.reason);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.all" id="apidoc.element.axios.default.all">
+        function <span class="apidocSignatureSpan">axios.default.</span>all
+        <span class="apidocSignatureSpan">(promises)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function all(promises) {
+  return Promise.all(promises);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  return axios.get(&#x27;/user/12345&#x27;);
+}
+
+function getUserPermissions() {
+  return axios.get(&#x27;/user/12345/permissions&#x27;);
+}
+
+axios.<span class="apidocCodeKeywordSpan">all</span>([getUserAccount(), getUserPermissions()])
+  .then(axios.spread(function (acct, perms) {
+    // Both requests are now complete
+  }));
+```
+
+## axios API
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.create" id="apidoc.element.axios.default.create">
+        function <span class="apidocSignatureSpan">axios.default.</span>create
+        <span class="apidocSignatureSpan">(instanceConfig)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function create(instanceConfig) {
+  return createInstance(utils.merge(defaults, instanceConfig));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+##### axios.all(iterable)
+##### axios.spread(callback)
+
+### Creating an instance
+
+You can create a new instance of axios with a custom config.
+
+##### axios.<span class="apidocCodeKeywordSpan">create</span>([config])
+
+```js
+var instance = axios.create({
+  baseURL: &#x27;https://some-domain.com/api/&#x27;,
+  timeout: 1000,
+  headers: {&#x27;X-Custom-Header&#x27;: &#x27;foobar&#x27;}
+});
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.delete" id="apidoc.element.axios.default.delete">
+        function <span class="apidocSignatureSpan">axios.default.</span>delete
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function wrap() {
+  var args = new Array(arguments.length);
+  for (var i = 0; i &#x3c; args.length; i++) {
+    args[i] = arguments[i];
+  }
+  return fn.apply(thisArg, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+### Request method aliases
+
+For convenience aliases have been provided for all supported request methods.
+
+##### axios.request(config)
+##### axios.get(url[, config])
+##### axios.<span class="apidocCodeKeywordSpan">delete</span>(url[, config])
+##### axios.head(url[, config])
+##### axios.options(url[, config])
+##### axios.post(url[, data[, config]])
+##### axios.put(url[, data[, config]])
+##### axios.patch(url[, data[, config]])
+
+###### NOTE
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.get" id="apidoc.element.axios.default.get">
+        function <span class="apidocSignatureSpan">axios.default.</span>get
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function wrap() {
+  var args = new Array(arguments.length);
+  for (var i = 0; i &#x3c; args.length; i++) {
+    args[i] = arguments[i];
+  }
+  return fn.apply(thisArg, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+## Example
+
+Performing a `GET` request
+
+```js
+// Make a request for a user with a given ID
+axios.<span class="apidocCodeKeywordSpan">get</span>(&#x27;/user?ID=12345&#x27;)
+.then(function (response) {
+  console.log(response);
+})
+.catch(function (error) {
+  console.log(error);
+});
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.head" id="apidoc.element.axios.default.head">
+        function <span class="apidocSignatureSpan">axios.default.</span>head
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function wrap() {
+  var args = new Array(arguments.length);
+  for (var i = 0; i &#x3c; args.length; i++) {
+    args[i] = arguments[i];
+  }
+  return fn.apply(thisArg, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+### Request method aliases
+
+For convenience aliases have been provided for all supported request methods.
+
+##### axios.request(config)
+##### axios.get(url[, config])
+##### axios.delete(url[, config])
+##### axios.<span class="apidocCodeKeywordSpan">head</span>(url[, config])
+##### axios.options(url[, config])
+##### axios.post(url[, data[, config]])
+##### axios.put(url[, data[, config]])
+##### axios.patch(url[, data[, config]])
+
+###### NOTE
+When using the alias methods `url`, `method`, and `data` properties don&#x27;t need to be specified in config.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.isCancel" id="apidoc.element.axios.default.isCancel">
+        function <span class="apidocSignatureSpan">axios.default.</span>isCancel
+        <span class="apidocSignatureSpan">(value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isCancel(value) {
+  return !!(value &#x26;&#x26; value.__CANCEL__);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+```js
+var CancelToken = axios.CancelToken;
+var source = CancelToken.source();
+
+axios.get(&#x27;/user/12345&#x27;, {
+  cancelToken: source.token
+}).catch(function(thrown) {
+  if (axios.<span class="apidocCodeKeywordSpan">isCancel</span>(thrown)) {
+    console.log(&#x27;Request canceled&#x27;, thrown.message);
+  } else {
+    // handle error
+  }
+});
+
+// cancel the request (the message parameter is optional)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.options" id="apidoc.element.axios.default.options">
+        function <span class="apidocSignatureSpan">axios.default.</span>options
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function wrap() {
+  var args = new Array(arguments.length);
+  for (var i = 0; i &#x3c; args.length; i++) {
+    args[i] = arguments[i];
+  }
+  return fn.apply(thisArg, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+For convenience aliases have been provided for all supported request methods.
+
+##### axios.request(config)
+##### axios.get(url[, config])
+##### axios.delete(url[, config])
+##### axios.head(url[, config])
+##### axios.<span class="apidocCodeKeywordSpan">options</span>(url[, config])
+##### axios.post(url[, data[, config]])
+##### axios.put(url[, data[, config]])
+##### axios.patch(url[, data[, config]])
+
+###### NOTE
+When using the alias methods `url`, `method`, and `data` properties don&#x27;t need to be specified in config.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.patch" id="apidoc.element.axios.default.patch">
+        function <span class="apidocSignatureSpan">axios.default.</span>patch
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function wrap() {
+  var args = new Array(arguments.length);
+  for (var i = 0; i &#x3c; args.length; i++) {
+    args[i] = arguments[i];
+  }
+  return fn.apply(thisArg, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+##### axios.request(config)
+##### axios.get(url[, config])
+##### axios.delete(url[, config])
+##### axios.head(url[, config])
+##### axios.options(url[, config])
+##### axios.post(url[, data[, config]])
+##### axios.put(url[, data[, config]])
+##### axios.<span class="apidocCodeKeywordSpan">patch</span>(url[, data[, config]])
+
+###### NOTE
+When using the alias methods `url`, `method`, and `data` properties don&#x27;t need to be specified in config.
+
+### Concurrency
+
+Helper functions for dealing with concurrent requests.
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.post" id="apidoc.element.axios.default.post">
+        function <span class="apidocSignatureSpan">axios.default.</span>post
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function wrap() {
+  var args = new Array(arguments.length);
+  for (var i = 0; i &#x3c; args.length; i++) {
+    args[i] = arguments[i];
+  }
+  return fn.apply(thisArg, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  console.log(error);
+});
+```
+
+Performing a `POST` request
+
+```js
+axios.<span class="apidocCodeKeywordSpan">post</span>(&#x27;/user&#x27;, {
+  firstName: &#x27;Fred&#x27;,
+  lastName: &#x27;Flintstone&#x27;
+})
+.then(function (response) {
+  console.log(response);
+})
+.catch(function (error) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.put" id="apidoc.element.axios.default.put">
+        function <span class="apidocSignatureSpan">axios.default.</span>put
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function wrap() {
+  var args = new Array(arguments.length);
+  for (var i = 0; i &#x3c; args.length; i++) {
+    args[i] = arguments[i];
+  }
+  return fn.apply(thisArg, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+##### axios.request(config)
+##### axios.get(url[, config])
+##### axios.delete(url[, config])
+##### axios.head(url[, config])
+##### axios.options(url[, config])
+##### axios.post(url[, data[, config]])
+##### axios.<span class="apidocCodeKeywordSpan">put</span>(url[, data[, config]])
+##### axios.patch(url[, data[, config]])
+
+###### NOTE
+When using the alias methods `url`, `method`, and `data` properties don&#x27;t need to be specified in config.
+
+### Concurrency
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.request" id="apidoc.element.axios.default.request">
+        function <span class="apidocSignatureSpan">axios.default.</span>request
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function wrap() {
+  var args = new Array(arguments.length);
+  for (var i = 0; i &#x3c; args.length; i++) {
+    args[i] = arguments[i];
+  }
+  return fn.apply(thisArg, args);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+axios(&#x27;/user/12345&#x27;);
+```
+
+### Request method aliases
+
+For convenience aliases have been provided for all supported request methods.
+
+##### axios.<span class="apidocCodeKeywordSpan">request</span>(config)
+##### axios.get(url[, config])
+##### axios.delete(url[, config])
+##### axios.head(url[, config])
+##### axios.options(url[, config])
+##### axios.post(url[, data[, config]])
+##### axios.put(url[, data[, config]])
+##### axios.patch(url[, data[, config]])
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.axios.default.spread" id="apidoc.element.axios.default.spread">
+        function <span class="apidocSignatureSpan">axios.default.</span>spread
+        <span class="apidocSignatureSpan">(callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function spread(callback) {
+  return function wrap(arr) {
+    return callback.apply(null, arr);
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+function getUserPermissions() {
+  return axios.get(&#x27;/user/12345/permissions&#x27;);
+}
+
+axios.all([getUserAccount(), getUserPermissions()])
+  .then(axios.<span class="apidocCodeKeywordSpan">spread</span>(function (acct, perms) {
+    // Both requests are now complete
+  }));
+```
+
+## axios API
+
+Requests can be made by passing the relevant config to `axios`.
+...</pre></li>
+    </ul>
+
+
+
+
 
 
 </div>
@@ -1683,13 +2728,15 @@ if (axios.isCancel(thrown)) {
     }
 
     if (data &#x26;&#x26; !utils.isStream(data)) {
-      if (utils.isArrayBuffer(data)) {
+      if (utils.isBuffer(data)) {
+        // Nothing to do...
+      } else if (utils.isArrayBuffer(data)) {
         data = new Buffer(new Uint8Array(data));
       } else if (utils.isString(data)) {
         data = new Buffer(data, &#x27;utf-8&#x27;);
       } else {
         return reject(createError(
-          &#x27;Data after transformation must be a string, an ArrayBuffer, or a Stream&#x27;,
+          &#x27;Data after transformation must be a string, an ArrayBuffer, a Buffer, or a Stream&#x27;,
           config
         ));
       }
@@ -1797,8 +2844,7 @@ if (axios.isCancel(thrown)) {
         // add the unzipper to the body stream processing pipeline
         stream = stream.pipe(zlib.createUnzip());
 
-        // remove the content-encoding in order to not confuse downstream operations
-        delete r ...</pre></li>
+        // remove the ...</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
@@ -1849,6 +2895,7 @@ if (axios.isCancel(thrown)) {
   normalizeHeaderName(headers, &#x27;Content-Type&#x27;);
   if (utils.isFormData(data) ||
     utils.isArrayBuffer(data) ||
+    utils.isBuffer(data) ||
     utils.isStream(data) ||
     utils.isFile(data) ||
     utils.isBlob(data)
@@ -1959,7 +3006,23 @@ if (axios.isCancel(thrown)) {
     }
   }
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if (xsrfValue) {
+    requestHeaders[config.xsrfHeaderName] = xsrfValue;
+  }
+}
+
+// Add headers to the request
+if (&#x27;setRequestHeader&#x27; in request) {
+  utils.<span class="apidocCodeKeywordSpan">forEach</span>(requestHeaders, function setRequestHeader(val, key) {
+    if (typeof requestData === &#x27;undefined&#x27; &#x26;&#x26; key.toLowerCase() === &#x27;content-type&#x27;) {
+      // Remove Content-Type if data is undefined
+      delete requestHeaders[key];
+    } else {
+      // Otherwise add header to the request
+      request.setRequestHeader(key, val);
+    }
+...</pre></li>
     </ul>
 
 
@@ -1974,7 +3037,22 @@ if (axios.isCancel(thrown)) {
     <li>description and source-code<pre class="apidocCodePre">function isArray(val) {
   return toString.call(val) === &#x27;[object Array]&#x27;;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    var parts = [];
+
+    utils.forEach(params, function serialize(val, key) {
+if (val === null || typeof val === &#x27;undefined&#x27;) {
+  return;
+}
+
+if (utils.<span class="apidocCodeKeywordSpan">isArray</span>(val)) {
+  key = key + &#x27;[]&#x27;;
+}
+
+if (!utils.isArray(val)) {
+  val = [val];
+}
+...</pre></li>
     </ul>
 
 
@@ -1989,7 +3067,23 @@ if (axios.isCancel(thrown)) {
     <li>description and source-code<pre class="apidocCodePre">function isArrayBuffer(val) {
   return toString.call(val) === &#x27;[object ArrayBuffer]&#x27;;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+if (!headers[&#x27;User-Agent&#x27;] &#x26;&#x26; !headers[&#x27;user-agent&#x27;]) {
+  headers[&#x27;User-Agent&#x27;] = &#x27;axios/&#x27; + pkg.version;
+}
+
+if (data &#x26;&#x26; !utils.isStream(data)) {
+  if (utils.isBuffer(data)) {
+    // Nothing to do...
+  } else if (utils.<span class="apidocCodeKeywordSpan">isArrayBuffer</span>(data)) {
+    data = new Buffer(new Uint8Array(data));
+  } else if (utils.isString(data)) {
+    data = new Buffer(data, &#x27;utf-8&#x27;);
+  } else {
+    return reject(createError(
+      &#x27;Data after transformation must be a string, an ArrayBuffer, a Buffer, or a Stream&#x27;,
+      config
+...</pre></li>
     </ul>
 
 
@@ -2031,6 +3125,38 @@ if (axios.isCancel(thrown)) {
 
 
     <h2>
+        <a href="#apidoc.element.axios.utils.isBuffer" id="apidoc.element.axios.utils.isBuffer">
+        function <span class="apidocSignatureSpan">axios.utils.</span>isBuffer
+        <span class="apidocSignatureSpan">(val)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isBuffer(val) {
+  return ((typeof Buffer !== &#x27;undefined&#x27;) &#x26;&#x26; (Buffer.isBuffer) &#x26;&#x26; (Buffer.isBuffer(val)));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+/**
+* Determine if a value is a Node Buffer
+*
+* @param {Object} val The value to test
+* @returns {boolean} True if value is a Node Buffer, otherwise false
+*/
+function isBuffer(val) {
+ return ((typeof Buffer !== &#x27;undefined&#x27;) &#x26;&#x26; (Buffer.isBuffer) &#x26;&#x26; (Buffer.<span class="apidocCodeKeywordSpan
+">isBuffer</span>(val)));
+}
+
+/**
+* Determine if a value is an ArrayBuffer
+*
+* @param {Object} val The value to test
+* @returns {boolean} True if value is an ArrayBuffer, otherwise false
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
         <a href="#apidoc.element.axios.utils.isDate" id="apidoc.element.axios.utils.isDate">
         function <span class="apidocSignatureSpan">axios.utils.</span>isDate
         <span class="apidocSignatureSpan">(val)</span>
@@ -2040,7 +3166,23 @@ if (axios.isCancel(thrown)) {
     <li>description and source-code<pre class="apidocCodePre">function isDate(val) {
   return toString.call(val) === &#x27;[object Date]&#x27;;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  }
+
+  if (!utils.isArray(val)) {
+    val = [val];
+  }
+
+  utils.forEach(val, function parseValue(v) {
+    if (utils.<span class="apidocCodeKeywordSpan">isDate</span>(v)) {
+      v = v.toISOString();
+    } else if (utils.isObject(v)) {
+      v = JSON.stringify(v);
+    }
+    parts.push(encode(key) + &#x27;=&#x27; + encode(v));
+  });
+});
+...</pre></li>
     </ul>
 
 
@@ -2070,7 +3212,23 @@ if (axios.isCancel(thrown)) {
     <li>description and source-code<pre class="apidocCodePre">function isFormData(val) {
   return (typeof FormData !== &#x27;undefined&#x27;) &#x26;&#x26; (val instanceof FormData);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var btoa = (typeof window !== &#x27;undefined&#x27; &#x26;&#x26; window.btoa &#x26;&#x26; window.btoa.bind(window)) || require(&#
+x27;./../helpers/btoa&#x27;);
+
+module.exports = function xhrAdapter(config) {
+  return new Promise(function dispatchXhrRequest(resolve, reject) {
+var requestData = config.data;
+var requestHeaders = config.headers;
+
+if (utils.<span class="apidocCodeKeywordSpan">isFormData</span>(requestData)) {
+  delete requestHeaders[&#x27;Content-Type&#x27;]; // Let the browser set it
+}
+
+var request = new XMLHttpRequest();
+var loadEvent = &#x27;onreadystatechange&#x27;;
+var xDomain = false;
+...</pre></li>
     </ul>
 
 
@@ -2100,7 +3258,22 @@ if (axios.isCancel(thrown)) {
     <li>description and source-code<pre class="apidocCodePre">function isNumber(val) {
   return typeof val === &#x27;number&#x27;;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  // Standard browser envs support document.cookie
+  (function standardBrowserEnv() {
+    return {
+      write: function write(name, value, expires, path, domain, secure) {
+var cookie = [];
+cookie.push(name + &#x27;=&#x27; + encodeURIComponent(value));
+
+if (utils.<span class="apidocCodeKeywordSpan">isNumber</span>(expires)) {
+  cookie.push(&#x27;expires=&#x27; + new Date(expires).toGMTString());
+}
+
+if (utils.isString(path)) {
+  cookie.push(&#x27;path=&#x27; + path);
+}
+...</pre></li>
     </ul>
 
 
@@ -2115,7 +3288,23 @@ if (axios.isCancel(thrown)) {
     <li>description and source-code<pre class="apidocCodePre">function isObject(val) {
   return val !== null &#x26;&#x26; typeof val === &#x27;object&#x27;;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if (!utils.isArray(val)) {
+    val = [val];
+  }
+
+  utils.forEach(val, function parseValue(v) {
+    if (utils.isDate(v)) {
+      v = v.toISOString();
+    } else if (utils.<span class="apidocCodeKeywordSpan">isObject</span>(v)) {
+      v = JSON.stringify(v);
+    }
+    parts.push(encode(key) + &#x27;=&#x27; + encode(v));
+  });
+});
+
+serializedParams = parts.join(&#x27;&#x26;&#x27;);
+...</pre></li>
     </ul>
 
 
@@ -2136,7 +3325,22 @@ if (axios.isCancel(thrown)) {
     typeof document !== &#x27;undefined&#x27;
   );
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// Clean up request
+request = null;
+    };
+
+    // Add xsrf header
+    // This is only done if running in a standard browser environment.
+    // Specifically not if we&#x27;re in a web worker, or react-native.
+    if (utils.<span class="apidocCodeKeywordSpan">isStandardBrowserEnv</span>()) {
+var cookies = require(&#x27;./../helpers/cookies&#x27;);
+
+// Add xsrf header
+var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) &#x26;&#x26; config.xsrfCookieName ?
+    cookies.read(config.xsrfCookieName) :
+    undefined;
+...</pre></li>
     </ul>
 
 
@@ -2151,7 +3355,23 @@ if (axios.isCancel(thrown)) {
     <li>description and source-code<pre class="apidocCodePre">function isStream(val) {
   return isObject(val) &#x26;&#x26; isFunction(val.pipe);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+// Set User-Agent (required by some servers)
+// Only set header if it hasn&#x27;t been set in config
+// See https://github.com/mzabriskie/axios/issues/69
+if (!headers[&#x27;User-Agent&#x27;] &#x26;&#x26; !headers[&#x27;user-agent&#x27;]) {
+  headers[&#x27;User-Agent&#x27;] = &#x27;axios/&#x27; + pkg.version;
+}
+
+if (data &#x26;&#x26; !utils.<span class="apidocCodeKeywordSpan">isStream</span>(data)) {
+  if (utils.isBuffer(data)) {
+    // Nothing to do...
+  } else if (utils.isArrayBuffer(data)) {
+    data = new Buffer(new Uint8Array(data));
+  } else if (utils.isString(data)) {
+    data = new Buffer(data, &#x27;utf-8&#x27;);
+  } else {
+...</pre></li>
     </ul>
 
 
@@ -2166,7 +3386,23 @@ if (axios.isCancel(thrown)) {
     <li>description and source-code<pre class="apidocCodePre">function isString(val) {
   return typeof val === &#x27;string&#x27;;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+}
+
+if (data &#x26;&#x26; !utils.isStream(data)) {
+  if (utils.isBuffer(data)) {
+    // Nothing to do...
+  } else if (utils.isArrayBuffer(data)) {
+    data = new Buffer(new Uint8Array(data));
+  } else if (utils.<span class="apidocCodeKeywordSpan">isString</span>(data)) {
+    data = new Buffer(data, &#x27;utf-8&#x27;);
+  } else {
+    return reject(createError(
+      &#x27;Data after transformation must be a string, an ArrayBuffer, a Buffer, or a Stream&#x27;,
+      config
+    ));
+  }
+...</pre></li>
     </ul>
 
 
@@ -2181,7 +3417,23 @@ if (axios.isCancel(thrown)) {
     <li>description and source-code<pre class="apidocCodePre">function isURLSearchParams(val) {
   return typeof URLSearchParams !== &#x27;undefined&#x27; &#x26;&#x26; val instanceof URLSearchParams;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  if (!params) {
+return url;
+  }
+
+  var serializedParams;
+  if (paramsSerializer) {
+serializedParams = paramsSerializer(params);
+  } else if (utils.<span class="apidocCodeKeywordSpan">isURLSearchParams</span>(params)) {
+serializedParams = params.toString();
+  } else {
+var parts = [];
+
+utils.forEach(params, function serialize(val, key) {
+  if (val === null || typeof val === &#x27;undefined&#x27;) {
+    return;
+...</pre></li>
     </ul>
 
 
@@ -2223,7 +3475,24 @@ if (axios.isCancel(thrown)) {
   }
   return result;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+config.data = transformData(
+  config.data,
+  config.headers,
+  config.transformRequest
+);
+
+// Flatten headers
+config.headers = utils.<span class="apidocCodeKeywordSpan">merge</span>(
+  config.headers.common || {},
+  config.headers[config.method] || {},
+  config.headers || {}
+);
+
+utils.forEach(
+  [&#x27;delete&#x27;, &#x27;get&#x27;, &#x27;head&#x27;, &#x27;post&#x27;, &#x27;put&#x27;, &#x27;patch&#x27;, &#x27;common&#x27
+;],
+...</pre></li>
     </ul>
 
 
@@ -2238,7 +3507,22 @@ if (axios.isCancel(thrown)) {
     <li>description and source-code<pre class="apidocCodePre">function trim(str) {
   return str.replace(/^\s*/, &#x27;&#x27;).replace(/\s*$/, &#x27;&#x27;);
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var val;
+var i;
+
+if (!headers) { return parsed; }
+
+utils.forEach(headers.split(&#x27;\n&#x27;), function parser(line) {
+  i = line.indexOf(&#x27;:&#x27;);
+  key = utils.<span class="apidocCodeKeywordSpan">trim</span>(line.substr(0, i)).toLowerCase();
+  val = utils.trim(line.substr(i + 1));
+
+  if (key) {
+    parsed[key] = parsed[key] ? parsed[key] + &#x27;, &#x27; + val : val;
+  }
+});
+...</pre></li>
     </ul>
 
 
